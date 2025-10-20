@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 4000;
 
 //criando a rota inicial
 app.get("/", function(req,res){
-    res.send("<h1>Bem-vindo ao CineExpress!</h1>");
+    res.send("<h1>Bem-vindo ao Cinepress!</h1>");
 })
 
 //rota do cadastro de produtos
